@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Auto-push current branch after each commit.
+git push origin HEAD
